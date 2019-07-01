@@ -46,5 +46,3 @@ db.commit()
     # connection is not autocommit by default. So you must commit to save
     # your changes.
 
-#CREATE TABLE Orders(  OrderId varchar(10) NOT NULL, CustomerPhoneNumber varchar(10) NOT NULL, TotalOrderAmount INT NOT NULL,  OrderTime varchar(50) NOT NULL, StoreLocation VARCHAR(250) , Primary key(OrderId) );
-#CREATE TABLE OrderDetails(Id INT AUTO_INCREMENT,  OrderId varchar(10) NOT NULL, ProductId varchar(100) NOT NULL, ProductName varchar(250) NOT NULL,  ProductCategory varchar(50) NOT NULL, ProductAmount INT NOT NULL, Quantity varchar(10) NOT NULL, Primary key(Id) );
